@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-007d5db58754fa284 --count 1 --instance-type t2.micro --key-name Bit --security-group-ids sg-012040563a45cc550 --subnet-id subnet-6af0ba02
